@@ -1,12 +1,12 @@
 import axios from "axios";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { Link, Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 import { createMessage } from "../../../Actions/messages";
 
 function SingleSale(props) {
-  const componentRef = useRef();
+  // const componentRef = useRef();
   const { isAuthenticated, user } = props.Auth;
   const initialState = {
     product: "",
@@ -76,8 +76,8 @@ function SingleSale(props) {
   if (!isAuthenticated) {
     return <Redirect to="/" />;
   }
-  const date = new Date();
-  const hour = date.getHours();
+  // const date = new Date();
+  // const hour = date.getHours();
 
   // export const Example = () => {
 

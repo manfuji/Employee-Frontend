@@ -154,7 +154,6 @@ function SaleEmployee(props) {
 
       <div className="mt-5 container">
         <div className="text-capitalize d-flex gap-3 mb-3">
-          employeeSales
           <button
             type="button"
             className="btn btn-outline-primary"
@@ -250,13 +249,32 @@ function SaleEmployee(props) {
                         onChange={onChange}
                       >
                         <option>.....</option>
-                        <option>Banku</option>
-                        <option>Fufu</option>
-                        <option>Jollof</option>
+                        <option>Banku and Okro Soup</option>
+                        <option>Fufu and Goat Meat Soup</option>
+                        <option>Jollof Rice</option>
                         <option>Burger</option>
                         <option>drink</option>
                         <option>pie</option>
-                        <option>water</option>
+                        <option>General Pizza </option>
+                        <option>Family Size</option>
+                        <option>Large Size</option>
+                        <option>Mega Size</option>
+                        <option>Shawarma </option>
+                        <option>Hamburger </option>
+                        <option>Pie </option>
+                        <option>Potato Chips</option>
+                        <option>African Salad</option>
+                        <option>Hambuger And Chip</option>
+                        <option>Fufu With Tilapia</option>
+                        <option>Club Sandwich and Club</option>
+                        <option>Meat Salad</option>
+                        <option>Vegetarian Pizza</option>
+                        <option>Malt</option>
+                        <option> Fanta</option>
+                        <option>Guiness</option>
+                        <option></option>
+                        <option>Meat Salad</option>
+                        <option>Meat Salad</option>
                       </select>
                     </div>
                     <div className="form-group row">
@@ -269,13 +287,21 @@ function SaleEmployee(props) {
                         onChange={onChange}
                       >
                         <option>.....</option>
-                        <option>20.00</option>
-                        <option>32.00</option>
-                        <option>10.00</option>
-                        <option>25.00</option>
-                        <option>35.00</option>
-                        <option>54.00</option>
+                        <option>5.00</option>
                         <option>12.00</option>
+                        <option>13.00</option>
+                        <option>15.00</option>
+                        <option>16.00</option>
+                        <option>18.00</option>
+                        <option>20.00</option>
+                        <option>25.00</option>
+                        <option>30.00</option>
+                        <option>35.00</option>
+                        <option>40.00</option>
+                        <option>45.00</option>
+                        <option>50.00</option>
+                        <option>60.00</option>
+                        <option>70.00</option>
                       </select>
                     </div>
                     <div className="form-group row ">
@@ -354,7 +380,7 @@ function SaleEmployee(props) {
                     <span className="text-capitalize">
                       <br />
                       <span>Tel: </span>
-                      <span colspan="3">0247130081 or 0247130081</span>
+                      <span colspan="3">0247130081 or 0500856550</span>
                       <br />
                     </span>
                     <span className="">
@@ -362,7 +388,7 @@ function SaleEmployee(props) {
                       <span colspan="3">bravosfoodgh.com for more </span>
                     </span>
                   </div>
-                  <br /> <br />
+
                   <br />
                   <br />
                 </>

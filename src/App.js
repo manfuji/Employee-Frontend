@@ -20,7 +20,7 @@ import { Fragment } from "react";
 import Employee from "./components/Container/pages/Employee";
 import SingleSale from "./components/Container/pages/SingleSale";
 import AllSales from "./components/Container/pages/AllSales";
-import Trials from "./components/Container/pages/Trials";
+// import Trials from "./components/Container/pages/Trials";
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
               <Route exact path="/sell" component={SingleSale} />
               <Route exact path="/print" component={EditUser} />
               <Route exact path="/employeeSales" component={AllSales} />
-              <Route exact path="/test" component={Trials} />
+              {/* <Route exact path="/test" component={Trials} /> */}
               <Route component={Pagenotfound} />
             </Switch>
             <ToastContainer />

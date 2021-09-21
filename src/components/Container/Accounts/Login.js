@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { login } from "../../../Actions/Auth";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import { Link, Redirect } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import { createMessage } from "../../../Actions/messages";
 class Login extends Component {
   state = {

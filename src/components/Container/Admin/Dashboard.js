@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useState, useEffect, useRef } from "react";
 import { connect } from "react-redux";
-import { Link, Redirect, useHistory } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 import { useReactToPrint } from "react-to-print";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import { createMessage } from "../../../Actions/messages";
 import ComponentToPrint from "../pages/ComponentToPrint";
 
@@ -11,7 +11,7 @@ function Dashboard(props) {
   const { isAuthenticated, user } = props.Auth;
   let history = useHistory();
   const [data, setData] = useState({ search: "" });
-  const [SaleData, setSaleData] = useState({ post: [] });
+  // const [SaleData, setSaleData] = useState({ post: [] });
 
   const componentRef = useRef();
   const handlePrint = useReactToPrint({

@@ -1,8 +1,6 @@
 import axios from "axios";
 import { returnErrors } from "./messages";
 import {
-  SIGNUP_FAIL,
-  SIGNUP_SUCCESS,
   LOGIN_FAIL,
   LOGIN_SUCCESS,
   USER_LOADING,

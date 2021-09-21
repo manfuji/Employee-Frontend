@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import { logout } from "../../Actions/Auth";
 import { connect } from "react-redux";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 import logo from "./logo.jpg";
 import { Profiles } from "../../Actions/Auth";
 
@@ -14,7 +14,7 @@ const Header = (props) => {
   };
 
   // const [profileData, setprofileData] = useState({ profiles: [] });
-  const { isAuthenticated, user, profiles } = props.Auth;
+  const { isAuthenticated, profiles } = props.Auth;
 
   // console.log(profileData, profile)
   console.log(profiles);
